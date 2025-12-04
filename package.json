@@ -1,0 +1,21 @@
+{
+  "name": "arshika-md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "express": "latest",
+    "qrcode-terminal": "latest",
+    "ytdl-core": "latest",
+    "axios": "latest",
+    "fluent-ffmpeg": "latest",
+    "file-type": "latest",
+    "node-cache": "latest",
+    "form-data": "latest"
+  }
+}
