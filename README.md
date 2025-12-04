@@ -76,3 +76,13 @@ jobs:
           push: true
           tags: ghcr.io/${{ github.repository_owner }}/arshika-md:latest
           file: Dockerfile
+
+```
+<a href="#koyeb-deploy">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&weight=500&size=28&duration=2600&pause=900&color=FF00E1&center=true&vCenter=true&width=800&height=90&lines=ARSHIKA-MD+ASSIST+AI+2026;Self+Healing+Bot+Engine;Click+Here+to+Deploy+on+Koyeb" />
+</a>
+
+<a href="https://app.koyeb.com/apps/deploy?type=git&repository=https://github.com/sathaniccc/ARSHIKA-MD" target="_blank">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=2600&pause=800&color=00FFF6&center=true&vCenter=true&width=500&height=80&lines=🚀+DEPLOY+ARSHIKA-MD+ON+KOYEB;⚡+One+Click+Cloud+Deploy" />
+</a>
+
