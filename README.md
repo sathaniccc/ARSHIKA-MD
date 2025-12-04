@@ -9,12 +9,6 @@ Koyeb-ready, pairing-code login, FFmpeg-powered media suite, auto-heal runtime a
 
 ---
 
-## 🔮 Visual Identity
-This repository includes an **animated SVG banner** (`/assets/Arshika-banner.svg`) that reflects the project brand ("**Arshika-MD**").  
-- Add / customize the SVG (colors, size) to perfectly match your style.  
-- The SVG is inline-friendly — GitHub will render animation and gradients.
-
----
 
 ## ✨ Quick Features
 - Pairing-code multi-device login (auth_info/)  
@@ -27,11 +21,15 @@ This repository includes an **animated SVG banner** (`/assets/Arshika-banner.svg
 - Koyeb + Docker friendly
 
 ---
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&color=9A00FF&center=true&vCenter=true&width=600&lines=🚀+ARSHIKA+MD+2026;Futuristic+WhatsApp+Bot;Cloud+Optimized+|+Koyeb+Ready;Ultra+Stable+|+Errorless+Engine" />
+</h1>
 
-## ⚙️ How to Get Your Personal Animated README Look
-1. Fork this repo to your GitHub account.  
-2. Edit `assets/Arshika-banner.svg` if you want different colors/text. (SVG is plain text — change the `<text>` content).  
-3. Commit & push. README will update automatically.
+<p align="center">
+  <img src="https://img.shields.io/badge/ARSHIKA-MD-Premium_2026-purple?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Status-🔥_Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MultiDevice-Connected-blue?style=for-the-badge" />
+</p>
 
 ---
 
