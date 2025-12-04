@@ -1,0 +1,94 @@
+<!-- assets/Arshika-banner.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title">
+  <title id="title">Arshika-MD Banner</title>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="50%" stop-color="#8a2be2"/>
+      <stop offset="100%" stop-color="#ff5f6d"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <mask id="m1">
+      <rect width="100%" height="100%" fill="white" />
+      <!-- animated cutout -->
+      <rect x="0" y="0" width="1200" height="260" fill="black" />
+    </mask>
+    <pattern id="pNoise" patternUnits="userSpaceOnUse" width="600" height="260">
+      <rect width="600" height="260" fill="rgba(255,255,255,0.02)"/>
+      <circle cx="10" cy="10" r="0.6" fill="rgba(255,255,255,0.02)"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#060617"/>
+
+  <!-- moving gradient background -->
+  <rect width="1200" height="260" fill="url(#g1)" opacity="0.09">
+    <animate attributeName="x" from="-1200" to="0" dur="10s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- subtle grid lines -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <!-- vertical -->
+    <g>
+      <!-- generate lines -->
+      <!-- static lines -->
+      <line x1="50" y1="0" x2="50" y2="260" />
+      <line x1="150" y1="0" x2="150" y2="260" />
+      <line x1="250" y1="0" x2="250" y2="260" />
+      <line x1="350" y1="0" x2="350" y2="260" />
+      <line x1="450" y1="0" x2="450" y2="260" />
+      <line x1="550" y1="0" x2="550" y2="260" />
+      <line x1="650" y1="0" x2="650" y2="260" />
+      <line x1="750" y1="0" x2="750" y2="260" />
+      <line x1="850" y1="0" x2="850" y2="260" />
+      <line x1="950" y1="0" x2="950" y2="260" />
+      <line x1="1050" y1="0" x2="1050" y2="260" />
+      <line x1="1150" y1="0" x2="1150" y2="260" />
+    </g>
+  </g>
+
+  <!-- main text -->
+  <g transform="translate(60,170)">
+    <!-- shadow / neon glow -->
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="80" font-weight="800" fill="url(#g1)" filter="url(#glow)">
+      Arshika-
+      <tspan fill="#ffffff">MD</tspan>
+    </text>
+
+    <!-- animated underline bar -->
+    <rect x="0" y="10" width="600" height="8" rx="4" fill="white" opacity="0.06">
+      <animate attributeName="x" values="0;300;0" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.06;0.16;0.06" dur="6s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- moving spark -->
+    <circle cx="20" cy="-50" r="6" fill="#fff">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M0,0 C200,-40 400,-40 600,0" />
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- tagline -->
+  <text x="60" y="220" font-family="Inter, Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#cfd8ff" opacity="0.85">
+    Next-Gen WhatsApp Bot • Koyeb-Ready • FFmpeg Media Engine • Auto-Heal Runtime
+  </text>
+
+  <!-- small animated dots -->
+  <g fill="#fff" opacity="0.06">
+    <circle cx="980" cy="40" r="4">
+      <animate attributeName="cy" values="40;60;40" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="60" r="3">
+      <animate attributeName="cy" values="60;80;60" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="30" r="5">
+      <animate attributeName="cy" values="30;45;30" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- noise overlay -->
+  <rect width="1200" height="260" fill="url(#pNoise)" opacity="0.08" />
+</svg>
